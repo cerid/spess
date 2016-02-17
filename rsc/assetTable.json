@@ -1,0 +1,5 @@
+{
+"default": ["default.js","default.css"],
+"default.js": "rsc/assets/default.js",
+"default.css": "rsc/assets/default.css"
+}

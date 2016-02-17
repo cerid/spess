@@ -1,0 +1,15 @@
+"a" = (/turf,/area)
+"b" = (/obj/visualEffect/field/gas,/turf,/area)
+
+(1,1,1) = {"
+aaaaaaaaaa
+aaaaaaaaaa
+aaaaaaaaaa
+aaaaaaaaaa
+aaaabbaaaa
+aaaabbaaaa
+aaaabbaaaa
+aaaaaaaaaa
+aaaaaaaaaa
+aaaaaaaaaa
+"}

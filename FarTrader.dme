@@ -1,0 +1,64 @@
+// DM Environment file for FarTrader.dme.
+// All manual changes should be made outside the BEGIN_ and END_ blocks.
+// New source code should be placed in .dm files: choose File/New --> Code File.
+
+// BEGIN_INTERNALS
+// END_INTERNALS
+
+// BEGIN_FILE_DIR
+#define FILE_DIR .
+// END_FILE_DIR
+
+// BEGIN_PREFERENCES
+#define DEBUG
+// END_PREFERENCES
+
+// BEGIN_INCLUDE
+#include "code\_def.dm"
+#include "code\_helpers\_debug.dm"
+#include "code\_helpers\checks.dm"
+#include "code\_helpers\cmp.dm"
+#include "code\_helpers\game.dm"
+#include "code\_helpers\internal_data.dm"
+#include "code\_helpers\list.dm"
+#include "code\_helpers\math.dm"
+#include "code\_helpers\messages.dm"
+#include "code\_helpers\pool.dm"
+#include "code\_helpers\text.dm"
+#include "code\_helpers\type2type.dm"
+#include "code\_helpers\sorts\__main.dm"
+#include "code\_helpers\sorts\InsertSort.dm"
+#include "code\_helpers\sorts\MergeSort.dm"
+#include "code\_helpers\sorts\TimSort.dm"
+#include "code\core\world.dm"
+#include "code\core\controller\_init.dm"
+#include "code\core\controller\config.dm"
+#include "code\core\controller\event.dm"
+#include "code\core\controller\master.dm"
+#include "code\core\controller\browser\Topic.dm"
+#include "code\core\controller\browser\assets\_controller.dm"
+#include "code\core\controller\browser\assets\~external.dm"
+#include "code\core\controller\browser\debug_vars\_main.dm"
+#include "code\core\controller\browser\ui_system\_controller.dm"
+#include "code\core\controller\browser\ui_system\ui.dm"
+#include "code\core\controller\browser\ui_system\~external.dm"
+#include "code\core\controller\browser\ui_system\states\_states.dm"
+#include "code\core\controller\browser\ui_system\states\admin.dm"
+#include "code\core\controller\parser\_controller.dm"
+#include "code\core\controller\parser\decode.dm"
+#include "code\core\controller\parser\encode.dm"
+#include "code\core\controller\parser\dmm\_dmm.dm"
+#include "code\core\controller\parser\dmm\decode.dm"
+#include "code\core\controller\parser\dmm\encode.dm"
+#include "code\core\controller\parser\json\_json.dm"
+#include "code\core\controller\parser\json\decode.dm"
+#include "code\core\controller\parser\json\encode.dm"
+#include "code\gameobjects\global.dm"
+#include "code\gameobjects\turf.dm"
+#include "code\player\player.dm"
+#include "code\player\client\client.dm"
+#include "code\player\client\Topic.dm"
+#include "rsc\default.dmf"
+#include "rsc\map\z1.dmm"
+// END_INCLUDE
+
